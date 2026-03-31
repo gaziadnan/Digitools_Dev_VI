@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content with advanced AI.",
+    "price": 29,
+    "period": "Mo",
+    "tag": "Best Seller",
+    "tagType": "orange",
+    "features": ["Unlimited AI generations", "50+ templates", "Grammar checker"],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ templates for social media & marketing.",
+    "price": 49,
+    "period": "One-Time",
+    "tag": "Popular",
+    "tagType": "purple",
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Millions of photos, videos & graphics.",
+    "price": 19,
+    "period": "Mo",
+    "tag": "New",
+    "tagType": "green",
+    "features": ["10M+ assets", "Commercial use", "No attribution"],
+    "icon": "📷"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks easily.",
+    "price": 79,
+    "period": "Mo",
+    "tag": "Popular",
+    "tagType": "purple",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "⚙️"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes easily.",
+    "price": 15,
+    "period": "One-Time",
+    "tag": "New",
+    "tagType": "green",
+    "features": ["100+ templates", "ATS optimized", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Kit",
+    "description": "Create engaging social media content.",
+    "price": 39,
+    "period": "Mo",
+    "tag": "Best Seller",
+    "tagType": "orange",
+    "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
+    "icon": "📱"
+  },
+  {
+  "id": 7,
+  "name": "Video Editing Suite",
+  "description": "Edit professional videos بسهولة with powerful tools.",
+  "price": 59,
+  "period": "Mo",
+  "tag": "Popular",
+  "tagType": "purple",
+  "features": ["4K editing", "Transitions library", "Audio tools"],
+  "icon": "🎬"
+},
+{
+  "id": 8,
+  "name": "E-commerce Starter Kit",
+  "description": "Launch your online store quickly.",
+  "price": 99,
+  "period": "One-Time",
+  "tag": "Best Seller",
+  "tagType": "orange",
+  "features": ["Store templates", "Payment integration", "SEO tools"],
+  "icon": "🛒"
+},
+{
+  "id": 9,
+  "name": "SEO Optimization Tool",
+  "description": "Boost your website ranking بسهولة.",
+  "price": 25,
+  "period": "Mo",
+  "tag": "New",
+  "tagType": "green",
+  "features": ["Keyword research", "Site audit", "Backlink tracking"],
+  "icon": "📈"
+}
+]
