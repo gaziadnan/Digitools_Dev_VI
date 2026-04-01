@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps"
 import Pricing from "./components/Pricing"
+import CTA from "./components/CTA"
 import ProductsSection from "./components/ProductsSection";
 
 // Context
@@ -28,6 +29,7 @@ function App() {
         <ProductsSection view={view} setView={setView} />
         <Steps />
         <Pricing/>
+        <CTA/>
 
         
       </div>
