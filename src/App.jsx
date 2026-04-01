@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Steps from "./components/Steps"
+import Pricing from "./components/Pricing"
 import ProductsSection from "./components/ProductsSection";
 
 // Context
@@ -26,6 +27,7 @@ function App() {
         {/* Products + Cart Section */}
         <ProductsSection view={view} setView={setView} />
         <Steps />
+        <Pricing/>
 
         
       </div>
