@@ -1,16 +1,103 @@
-# React + Vite
+🚀 DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a modern and responsive web application where users can explore and purchase premium digital tools like AI writing, design templates, automation kits, and more.
 
-Currently, two official plugins are available:
+The goal of this project was to create a clean, user-friendly interface with smooth interactions and a real-world cart system.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 Live Demo:
 
-## React Compiler
+🔗 https://dapper-heliotrope-156ae2.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📌 Features:
 
-## Expanding the ESLint configuration
+	Clean and modern UI design
+	Fully responsive (mobile, tablet, desktop)
+	Product listing with detailed cards
+	Add to cart functionality
+	Dynamic Product & Cart Toggle
+	Remove items from cart
+	Total price calculation
+	Gradient Buttons &Smooth button interactions
+	Toggle between Products and Cart view
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+🛠️ Technologies Used:
+
+⚛️ React.js
+🎨 Tailwind CSS
+🌼 DaisyUI
+💡 JavaScript (ES6+)
+🔔 React Toastify (optional upgrade)
+📁 JSON (Product Data)
+
+📂 Project Structure:
+
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Stats.jsx
+│   ├── ProductsSection.jsx
+│   ├── Steps.jsx
+│   ├── Pricing.jsx
+│   ├── CTA.jsx
+│   └── Footer.jsx
+│
+├── context/
+│   └── CartContext.jsx
+│
+├── data/
+│   └── products.json
+│
+├── assets/
+│   ├── banner.png
+│   ├── Play.png
+│   └── icons/
+│
+└── App.jsx
+
+
+🛒 Cart Functionality:
+
+	Add products to cart
+	View cart from navbar
+	Remove individual items
+	Show total price
+	Proceed to checkout (clears cart)
+	Supports adding same product multiple times
+
+
+⚙️ Installation & Setup:
+
+# Clone the repository
+git clone https://github.com/gaziadnan/Digitools_Dev_IV
+
+# Go to project folder
+cd digitools
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
+
+
+🎯 Future Improvements:
+
+	Add toast notifications
+	Save cart in localStorage
+	Add authentication system
+	Payment integration
+	Dark mode
+
+
+
+👨‍💻 Author:
+
+Gazi Adnan
+📧 your-gazirifat84@gmail.com
+🌐 https://github.com/gaziadnan
