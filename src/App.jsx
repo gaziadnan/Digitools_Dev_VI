@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
+import Steps from "./components/Steps"
 import ProductsSection from "./components/ProductsSection";
 
 // Context
@@ -24,6 +25,7 @@ function App() {
 
         {/* Products + Cart Section */}
         <ProductsSection view={view} setView={setView} />
+        <Steps />
 
         
       </div>
