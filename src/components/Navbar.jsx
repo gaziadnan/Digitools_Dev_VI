@@ -5,7 +5,7 @@ const Navbar = ({ setView }) => {
   const { cart } = useCart();
 
   return (
-    <div className="w-full bg-white shadow-sm">
+    <div className="w-full bg-white/80 backdrop-blur-md fixed top-0 left-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
         {/* Logo */}
@@ -18,6 +18,8 @@ const Navbar = ({ setView }) => {
           <li>Products</li>
           <li>Features</li>
           <li>Pricing</li>
+          <li>Testimonials</li>
+          <li>FAQ</li>
         </ul>
 
         {/* Right */}
